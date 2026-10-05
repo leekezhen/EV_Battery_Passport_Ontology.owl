@@ -1,0 +1,1381 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/msimodern14/ontologies/2026/8/untitled-ontology-11"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/msimodern14/ontologies/2026/8/untitled-ontology-11">
+    <Prefix name="" IRI="http://www.semanticweb.org/msimodern14/ontologies/2026/8/untitled-ontology-11/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#EU_battery_regulation_2023"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EVBM_GUIDELINE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EV_owners"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EoL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JSM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MARii"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MITI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MS2818"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#battery_health_assessment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#battery_specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#battery_usage_behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#certified_recycling_centers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#data_access"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#degradation_and_charge_history"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#detailed_technical_and_operational_battery_information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#enforcement_bodies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#full_test_report"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#general_public"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#government_agencies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#manufacturer_identification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#manufacturers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#material_and_component_data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#potential_buyers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#professional_user"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#public"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#recycling_information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#regulatory_authorities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#regulatory_framework"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#second_life_operators"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#second_use_information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#service_centers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stakeholder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#authorised_(government)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#battery_accessories/professionals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#beginning_of_life_actors_(BoL)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#end_of_life_actors_(EoL)"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#canAccess"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#regulated_by"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#EoL"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#battery_health_assessment"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#battery_specification"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#battery_usage_behavior"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#carbon_footprint"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#carbon_footprint_performance_class"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#degradation_and_charge_history"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#detailed_technical_and_operational_batetry_information"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#full_test_report"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_approved_waste_management_centre"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_battery_category"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_battery_model"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_battery_weight"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_charging_behavior"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_contact_email"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_contact_number"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_date_of_manufacture"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_date_of_warranty"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_dismantling_procedures"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_electrochemical_test"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_exact_ratio_of_electrolytes_and_cathode_material"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_fast_charging_behavior"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_manufacturer_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_manufacturing_place"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_manufacturing_year"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_number_of_total_modules_and_cells"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_power_capability"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_product_physical_dimension"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_prouct_related_energy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_rated_capacity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_raw_data_from_durability"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_recommendation_actions_by_ai"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_registered_address"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_rul_cycle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_rul_time"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_safety_status"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_specification_of_cell_modules_and_cells"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_specification_of_electrodes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_state_of_health"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_temperature_behavior"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_trade_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_voltage_limit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#healthy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#manufacturer_identification"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#material_and_component_data"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#medium"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#not_healthy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#recycled_content_percentage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#recycling_information"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#EU_battery_regulation_2023"/>
+        <Class IRI="#regulatory_framework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EVBM_GUIDELINE"/>
+        <Class IRI="#regulatory_framework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EV_owners"/>
+        <Class IRI="#public"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EoL"/>
+        <Class IRI="#information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EoL"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_dismantling_procedures"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JSM"/>
+        <Class IRI="#regulatory_authorities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MARii"/>
+        <Class IRI="#regulatory_authorities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MITI"/>
+        <Class IRI="#regulatory_authorities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MS2818"/>
+        <Class IRI="#regulatory_framework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#battery_health_assessment"/>
+        <Class IRI="#information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#battery_health_assessment"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_rul_cycle"/>
+            <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#battery_health_assessment"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_rul_time"/>
+            <Datatype abbreviatedIRI="xsd:decimal"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#battery_health_assessment"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_safety_status"/>
+            <DataOneOf>
+                <Literal>healthy</Literal>
+                <Literal>medium</Literal>
+                <Literal>not healthy</Literal>
+            </DataOneOf>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#battery_health_assessment"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_state_of_health"/>
+            <Datatype abbreviatedIRI="xsd:decimal"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#battery_specification"/>
+        <Class IRI="#information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#battery_specification"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_battery_category"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#battery_specification"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_battery_model"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#battery_specification"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_battery_weight"/>
+            <Datatype abbreviatedIRI="xsd:decimal"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#battery_specification"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_date_of_manufacture"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#battery_specification"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_rated_capacity"/>
+            <Datatype abbreviatedIRI="xsd:decimal"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#battery_specification"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_voltage_limit"/>
+            <Datatype abbreviatedIRI="xsd:decimal"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#battery_usage_behavior"/>
+        <Class IRI="#information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#battery_usage_behavior"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_charging_behavior"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#battery_usage_behavior"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_fast_charging_behavior"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#battery_usage_behavior"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_recommendation_actions_by_ai"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#battery_usage_behavior"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_temperature_behavior"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#certified_recycling_centers"/>
+        <Class IRI="#professional_user"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#data_access"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#regulated_by"/>
+            <Class IRI="#regulatory_framework"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#degradation_and_charge_history"/>
+        <Class IRI="#information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#degradation_and_charge_history"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_prouct_related_energy"/>
+            <Datatype abbreviatedIRI="xsd:decimal"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#detailed_technical_and_operational_battery_information"/>
+        <Class IRI="#information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#detailed_technical_and_operational_battery_information"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_power_capability"/>
+            <Datatype abbreviatedIRI="xsd:decimal"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#detailed_technical_and_operational_battery_information"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_product_physical_dimension"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#enforcement_bodies"/>
+        <Class IRI="#authorised_(government)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#full_test_report"/>
+        <Class IRI="#information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#full_test_report"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_electrochemical_test"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#full_test_report"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_exact_ratio_of_electrolytes_and_cathode_material"/>
+            <Datatype abbreviatedIRI="xsd:decimal"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#full_test_report"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_raw_data_from_durability"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#general_public"/>
+        <Class IRI="#public"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#government_agencies"/>
+        <Class IRI="#authorised_(government)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#information"/>
+        <Class IRI="#data_access"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#manufacturer_identification"/>
+        <Class IRI="#information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#manufacturer_identification"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_contact_email"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#manufacturer_identification"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_contact_number"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#manufacturer_identification"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_date_of_warranty"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#manufacturer_identification"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_manufacturer_name"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#manufacturer_identification"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_manufacturing_place"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#manufacturer_identification"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_manufacturing_year"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#manufacturer_identification"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_registered_address"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#manufacturer_identification"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_trade_name"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#manufacturers"/>
+        <Class IRI="#beginning_of_life_actors_(BoL)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#material_and_component_data"/>
+        <Class IRI="#information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#material_and_component_data"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_number_of_total_modules_and_cells"/>
+            <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#material_and_component_data"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_specification_of_cell_modules_and_cells"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#material_and_component_data"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_specification_of_electrodes"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#potential_buyers"/>
+        <Class IRI="#public"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#professional_user"/>
+        <Class IRI="#stakeholder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#professional_user"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#canAccess"/>
+                <Class IRI="#full_test_report"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#professional_user"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canAccess"/>
+            <Class IRI="#EoL"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#professional_user"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canAccess"/>
+            <Class IRI="#battery_health_assessment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#professional_user"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canAccess"/>
+            <Class IRI="#battery_specification"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#professional_user"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canAccess"/>
+            <Class IRI="#battery_usage_behavior"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#professional_user"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canAccess"/>
+            <Class IRI="#degradation_and_charge_history"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#professional_user"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canAccess"/>
+            <Class IRI="#detailed_technical_and_operational_battery_information"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#professional_user"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canAccess"/>
+            <Class IRI="#manufacturer_identification"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#professional_user"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canAccess"/>
+            <Class IRI="#material_and_component_data"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#professional_user"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canAccess"/>
+            <Class IRI="#recycling_information"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#public"/>
+        <Class IRI="#stakeholder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#public"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#canAccess"/>
+                <Class IRI="#EoL"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#public"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#canAccess"/>
+                <Class IRI="#degradation_and_charge_history"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#public"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#canAccess"/>
+                <Class IRI="#detailed_technical_and_operational_battery_information"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#public"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#canAccess"/>
+                <Class IRI="#full_test_report"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#public"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#canAccess"/>
+                <Class IRI="#material_and_component_data"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#public"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canAccess"/>
+            <Class IRI="#battery_health_assessment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#public"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canAccess"/>
+            <Class IRI="#battery_specification"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#public"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canAccess"/>
+            <Class IRI="#battery_usage_behavior"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#public"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canAccess"/>
+            <Class IRI="#manufacturer_identification"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#public"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canAccess"/>
+            <Class IRI="#recycling_information"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#recycling_information"/>
+        <Class IRI="#information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#recycling_information"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#carbon_footprint"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#recycling_information"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#carbon_footprint_performance_class"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#recycling_information"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#recycled_content_percentage"/>
+            <Datatype abbreviatedIRI="xsd:decimal"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#regulatory_authorities"/>
+        <Class IRI="#authorised_(government)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#second_life_operators"/>
+        <Class IRI="#professional_user"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#second_use_information"/>
+        <Class IRI="#information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#service_centers"/>
+        <Class IRI="#professional_user"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stakeholder"/>
+        <Class IRI="#data_access"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#authorised_(government)"/>
+        <Class IRI="#stakeholder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#authorised_(government)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canAccess"/>
+            <Class IRI="#EoL"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#authorised_(government)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canAccess"/>
+            <Class IRI="#battery_health_assessment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#authorised_(government)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canAccess"/>
+            <Class IRI="#battery_specification"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#authorised_(government)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canAccess"/>
+            <Class IRI="#battery_usage_behavior"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#authorised_(government)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canAccess"/>
+            <Class IRI="#degradation_and_charge_history"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#authorised_(government)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canAccess"/>
+            <Class IRI="#detailed_technical_and_operational_battery_information"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#authorised_(government)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canAccess"/>
+            <Class IRI="#full_test_report"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#authorised_(government)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canAccess"/>
+            <Class IRI="#manufacturer_identification"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#authorised_(government)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canAccess"/>
+            <Class IRI="#material_and_component_data"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#authorised_(government)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canAccess"/>
+            <Class IRI="#recycling_information"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#battery_accessories/professionals"/>
+        <Class IRI="#professional_user"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#beginning_of_life_actors_(BoL)"/>
+        <Class IRI="#professional_user"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#end_of_life_actors_(EoL)"/>
+        <Class IRI="#professional_user"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#EoL"/>
+        <Class IRI="#manufacturer_identification"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#professional_user"/>
+        <Class IRI="#public"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#professional_user"/>
+        <Class IRI="#authorised_(government)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#public"/>
+        <Class IRI="#authorised_(government)"/>
+    </DisjointClasses>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#canAccess"/>
+    </InverseFunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#canAccess"/>
+        <Class IRI="#stakeholder"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#canAccess"/>
+        <Class IRI="#information"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#battery_health_assessment"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#carbon_footprint"/>
+        <DataProperty IRI="#recycling_information"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#carbon_footprint_performance_class"/>
+        <DataProperty IRI="#recycling_information"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_approved_waste_management_centre"/>
+        <DataProperty IRI="#recycling_information"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_battery_category"/>
+        <DataProperty IRI="#battery_specification"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_battery_model"/>
+        <DataProperty IRI="#battery_specification"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_battery_weight"/>
+        <DataProperty IRI="#battery_specification"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_charging_behavior"/>
+        <DataProperty IRI="#battery_usage_behavior"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_contact_email"/>
+        <DataProperty IRI="#manufacturer_identification"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_contact_number"/>
+        <DataProperty IRI="#manufacturer_identification"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_date_of_manufacture"/>
+        <DataProperty IRI="#battery_specification"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_date_of_warranty"/>
+        <DataProperty IRI="#manufacturer_identification"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_dismantling_procedures"/>
+        <DataProperty IRI="#EoL"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_electrochemical_test"/>
+        <DataProperty IRI="#full_test_report"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_exact_ratio_of_electrolytes_and_cathode_material"/>
+        <DataProperty IRI="#full_test_report"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_fast_charging_behavior"/>
+        <DataProperty IRI="#battery_usage_behavior"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_manufacturer_name"/>
+        <DataProperty IRI="#manufacturer_identification"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_manufacturing_place"/>
+        <DataProperty IRI="#manufacturer_identification"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_manufacturing_year"/>
+        <DataProperty IRI="#manufacturer_identification"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_number_of_total_modules_and_cells"/>
+        <DataProperty IRI="#material_and_component_data"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_power_capability"/>
+        <DataProperty IRI="#detailed_technical_and_operational_batetry_information"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_product_physical_dimension"/>
+        <DataProperty IRI="#detailed_technical_and_operational_batetry_information"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_prouct_related_energy"/>
+        <DataProperty IRI="#degradation_and_charge_history"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_rated_capacity"/>
+        <DataProperty IRI="#battery_specification"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_raw_data_from_durability"/>
+        <DataProperty IRI="#full_test_report"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_recommendation_actions_by_ai"/>
+        <DataProperty IRI="#battery_usage_behavior"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_registered_address"/>
+        <DataProperty IRI="#manufacturer_identification"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_rul_cycle"/>
+        <DataProperty IRI="#battery_health_assessment"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_rul_time"/>
+        <DataProperty IRI="#battery_health_assessment"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_safety_status"/>
+        <DataProperty IRI="#battery_health_assessment"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_specification_of_cell_modules_and_cells"/>
+        <DataProperty IRI="#material_and_component_data"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_specification_of_electrodes"/>
+        <DataProperty IRI="#material_and_component_data"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_state_of_health"/>
+        <DataProperty IRI="#battery_health_assessment"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_temperature_behavior"/>
+        <DataProperty IRI="#battery_usage_behavior"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_trade_name"/>
+        <DataProperty IRI="#manufacturer_identification"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_voltage_limit"/>
+        <DataProperty IRI="#battery_specification"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#healthy"/>
+        <DataProperty IRI="#has_safety_status"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#medium"/>
+        <DataProperty IRI="#has_safety_status"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#not_healthy"/>
+        <DataProperty IRI="#has_safety_status"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#recycled_content_percentage"/>
+        <DataProperty IRI="#recycling_information"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#carbon_footprint"/>
+        <Class IRI="#recycling_information"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#carbon_footprint_performance_class"/>
+        <Class IRI="#recycling_information"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_approved_waste_management_centre"/>
+        <Class IRI="#EoL"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_battery_category"/>
+        <Class IRI="#battery_specification"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_battery_model"/>
+        <Class IRI="#battery_specification"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_battery_weight"/>
+        <Class IRI="#battery_specification"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_charging_behavior"/>
+        <Class IRI="#battery_usage_behavior"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_contact_email"/>
+        <Class IRI="#manufacturer_identification"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_contact_number"/>
+        <Class IRI="#manufacturer_identification"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_date_of_manufacture"/>
+        <Class IRI="#battery_specification"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_date_of_warranty"/>
+        <Class IRI="#manufacturer_identification"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_dismantling_procedures"/>
+        <Class IRI="#EoL"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_electrochemical_test"/>
+        <Class IRI="#full_test_report"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_exact_ratio_of_electrolytes_and_cathode_material"/>
+        <Class IRI="#full_test_report"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_fast_charging_behavior"/>
+        <Class IRI="#battery_usage_behavior"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_manufacturer_name"/>
+        <Class IRI="#manufacturer_identification"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_manufacturing_place"/>
+        <Class IRI="#manufacturer_identification"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_manufacturing_year"/>
+        <Class IRI="#manufacturer_identification"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_number_of_total_modules_and_cells"/>
+        <Class IRI="#material_and_component_data"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_power_capability"/>
+        <Class IRI="#detailed_technical_and_operational_battery_information"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_product_physical_dimension"/>
+        <Class IRI="#detailed_technical_and_operational_battery_information"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_prouct_related_energy"/>
+        <Class IRI="#degradation_and_charge_history"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_rated_capacity"/>
+        <Class IRI="#battery_specification"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_raw_data_from_durability"/>
+        <Class IRI="#full_test_report"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_recommendation_actions_by_ai"/>
+        <Class IRI="#battery_usage_behavior"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_registered_address"/>
+        <Class IRI="#manufacturer_identification"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_rul_cycle"/>
+        <Class IRI="#battery_health_assessment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_rul_time"/>
+        <Class IRI="#battery_health_assessment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_safety_status"/>
+        <Class IRI="#battery_health_assessment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_specification_of_cell_modules_and_cells"/>
+        <Class IRI="#material_and_component_data"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_specification_of_electrodes"/>
+        <Class IRI="#material_and_component_data"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_state_of_health"/>
+        <Class IRI="#battery_health_assessment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_temperature_behavior"/>
+        <Class IRI="#battery_usage_behavior"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_trade_name"/>
+        <Class IRI="#manufacturer_identification"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_voltage_limit"/>
+        <Class IRI="#battery_specification"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#recycled_content_percentage"/>
+        <Class IRI="#recycling_information"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#carbon_footprint"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#carbon_footprint_performance_class"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_approved_waste_management_centre"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_battery_category"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_battery_model"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_battery_weight"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_charging_behavior"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_contact_email"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_contact_number"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_date_of_manufacture"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_date_of_warranty"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_dismantling_procedures"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_electrochemical_test"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_exact_ratio_of_electrolytes_and_cathode_material"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_fast_charging_behavior"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_manufacturing_place"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_manufacturing_year"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_number_of_total_modules_and_cells"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_power_capability"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_product_physical_dimension"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_prouct_related_energy"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_rated_capacity"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_raw_data_from_durability"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_recommendation_actions_by_ai"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_registered_address"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_rul_cycle"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_rul_time"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_safety_status"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_safety_status"/>
+        <DataOneOf>
+            <Literal>healthy</Literal>
+            <Literal>medium</Literal>
+            <Literal>not healthy</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_specification_of_cell_modules_and_cells"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_specification_of_electrodes"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_state_of_health"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_temperature_behavior"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_trade_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_voltage_limit"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#recycled_content_percentage"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
